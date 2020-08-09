@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM python
 WORKDIR /usr/share/src/
 COPY ./index.html /usr/share/src/
 EXPOSE 9000
